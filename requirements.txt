@@ -1,0 +1,4 @@
+ultralytics
+gradio
+pillow
+spaces
