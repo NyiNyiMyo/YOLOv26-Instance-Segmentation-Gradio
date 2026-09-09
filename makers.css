@@ -1,0 +1,56 @@
+.gradio-container {
+    --slider-color: #042AFF !important;
+    --checkbox-background-color-selected: #04ffa3 !important;
+    --checkbox-border-color-selected: #04ffa3 !important;
+    --checkbox-border-color-focus: #04ffa3 !important;
+    --button-primary-background-fill: #04ffa3 !important;
+    --button-primary-background-fill-hover: #0320CC !important;
+    --button-primary-border-color: #04ffa3 !important;
+    --color-accent: #04ffa3 !important;
+    --color-accent-soft: rgba(4, 42, 255, 0.15) !important;
+}
+
+/* Slider filled track */
+input[type="range"]::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #04ffa3 var(--range_progress, 25%), var(--neutral-200, #e5e7eb) var(--range_progress, 25%)) !important;
+}
+input[type="range"]::-moz-range-progress {
+    background: #04ffa3 !important;
+}
+
+/* Radio and checkbox accent */
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #04ffa3 !important;
+}
+
+/* Tab styling - remove orange, make green */
+button[role="tab"] {
+    border-bottom-color: transparent !important;
+}
+button[role="tab"].selected,
+button[role="tab"][aria-selected="true"] {
+    background: transparent !important;
+    color: #04ffa3 !important;
+    border-bottom: 2px solid #04ffa3 !important;
+}
+
+/* Radio group selected item: green background, white text */
+.wrap.selected,
+label.selected {
+    background: #04ffa3 !important;
+    border-color: #04ffa3 !important;
+    color: white !important;
+}
+label.selected span {
+    color: white !important;
+}
+
+/* Primary button */
+button.primary {
+    background: #04ffa3 !important;
+    border-color: #04ffa3 !important;
+}
+button.primary:hover {
+    background: #04ffff !important;
+}
