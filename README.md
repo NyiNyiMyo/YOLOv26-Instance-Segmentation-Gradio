@@ -35,3 +35,4 @@ short_description: YOLOv26 Segmentation & Pose Inference.
 ![Static Badge](https://img.shields.io/badge/Gradio-orange)
 
 <!-- ![Visualization eg1](results/gradio-inst-pose-fuse2.png)  -->
+![Visualization eg1](gradio-inst-pose-fuse1.png)
